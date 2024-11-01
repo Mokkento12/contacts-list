@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Список контактов</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Список контактов</h1>
         <input type="text" id="name" placeholder="Имя">
         <input type="text" id="phone" placeholder="Телефон">
-        <button>Добавить контакт</button>
+        <button onClick="addContact()">Добавить контакт</button>
         <div id="contactList"></div>
     </div>
     <!-- /.container -->
+    <script src="script.js"></script>
 </body>
 </html>
